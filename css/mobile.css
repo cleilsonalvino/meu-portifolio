@@ -24,6 +24,10 @@ header{
     align-items: center;
 }
 
+.ondasHeader{
+    display: none;
+}
+
 .content{
     text-align: center;
 }

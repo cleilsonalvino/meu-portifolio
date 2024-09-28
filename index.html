@@ -8,10 +8,37 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/elements.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 <body>
     <header>
-        <div class="content">
+        <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg" style="position: absolute; opacity: 0.3; bottom: 0;" class="ondasHeader">
+            <path fill="#2D3A3A" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,176C384,160,480,96,576,64C672,32,768,32,864,64C960,96,1056,160,1152,160C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+              <animate 
+                attributeName="d" 
+                dur="6s"
+                repeatCount="indefinite"
+                values="
+                  M0,128L48,144C96,160,192,192,288,176C384,160,480,96,576,64C672,32,768,32,864,64C960,96,1056,160,1152,160C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                  M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,96C672,64,768,64,864,96C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                  M0,128L48,160C96,192,192,192,288,160C384,128,480,64,576,48C672,32,768,64,864,96C960,128,1056,160,1152,144C1248,128,1344,64,1392,32L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                  M0,128L48,144C96,160,192,192,288,176C384,160,480,96,576,64C672,32,768,32,864,64C960,96,1056,160,1152,160C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" />
+              <animate 
+                attributeName="d" 
+                dur="6s"
+                begin="0s; path.end+0s" <!-- Início da animação de retorno -->
+                values="
+                  M0,128L48,144C96,160,192,192,288,176C384,160,480,96,576,64C672,32,768,32,864,64C960,96,1056,160,1152,160C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                  M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,96C672,64,768,64,864,96C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                  M0,128L48,160C96,192,192,192,288,160C384,128,480,64,576,48C672,32,768,64,864,96C960,128,1056,160,1152,144C1248,128,1344,64,1392,32L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" 
+                repeatCount="indefinite" />
+            </path>
+        </svg>
+        
+        
+        
+          
+        <div class="content fade-up">
             <h1 class="content-title">Olá, meu nome é Cleilson Alvino</h1>
             <p>Sou desenvolvedor front-end</p>
             <button class="element-button" id="projects">
@@ -49,9 +76,9 @@
         </div>
         <img src="img/eu.png" alt="minha foto" class="foto">
     </header>
-    <main>
-        <div class="socials">
-            <div class="card">
+    <main >
+        <div class="socials " >
+            <div class="card fade-up">
                 <a href="https://www.instagram.com/cleilsonalvino/" class="socialContainer containerOne">
                     <svg class="socialSvg instagramSvg" viewBox="0 0 16 16">
                         <path
@@ -86,26 +113,30 @@
                 </a>
             </div>
         </div>
-        <section class="content-section">
-            <h2>Sobre mim</h2>
-            <p>Sou um estudante de progamação com uma paixão em resolver soluções que ajudem na vida das pessoas.</p>
-            <p>Tenho especial interesse em desenvolvimento web, especialmente na construção de interfaces intuitivas e
-                responsivas utilizando HTML, CSS e JavaScript.</p>
-            <h2>Objetivo</h2>
-            <p>Meu objetivo é me tornar um desenvolvedor full-stack, combinando minhas habilidades de front-end com um
-                conhecimento sólido de back-end para criar soluções completas e eficientes.</p>
-        </section>
-        <section class="content-section">
-            <h2>Projetos</h2>
-            <h3>instrutor</h3>
-            <img src="https://media.licdn.com/dms/image/v2/D4D22AQFUuP58ei-dOw/feedshare-shrink_1280/feedshare-shrink_1280/0/1722521462667?e=1727913600&v=beta&t=OCbKbqiNCKD7o8yu1fSPL7NYJT8kugILWNVHbVCaYGg"
-                alt="" width="100%">
-            <p>Na tarde de 19 de junho de 2024, terça-feira, iniciei de forma presencial no campus Tobias Barreto o
-                minicurso de "Introdução à Programação em JavaScript", ligado ao projeto de extensão LabCode -
-                Laboratório para letramento e aperfeiçoamento em programação. Participei como instrutor ao lado do aluno
-                <a href="https://www.linkedin.com/in/yago--silva/">Yago Silva</a> , e nosso minicurso alcançou um total
-                de 19 participantes em seu primeiro dia.🥳</p>
-        </section>
+        <div class="contentMain">
+            <section class="content-section fade-up">
+                <h2>Sobre mim</h2>
+                <p>Sou um estudante de progamação com uma paixão em resolver soluções que ajudem na vida das pessoas.</p>
+                <p>Tenho especial interesse em desenvolvimento web, especialmente na construção de interfaces intuitivas e
+                    responsivas utilizando HTML, CSS e JavaScript.</p>
+                <h2>Objetivo</h2>
+                <p>Meu objetivo é me tornar um desenvolvedor full-stack, combinando minhas habilidades de front-end com um
+                    conhecimento sólido de back-end para criar soluções completas e eficientes.</p>
+            </section>
+            <section class="content-section fade-left">
+                <h2>Projetos</h2>
+                <h3>instrutor</h3>
+                <img src="https://media.licdn.com/dms/image/v2/D4D22AQFUuP58ei-dOw/feedshare-shrink_1280/feedshare-shrink_1280/0/1722521462667?e=1727913600&v=beta&t=OCbKbqiNCKD7o8yu1fSPL7NYJT8kugILWNVHbVCaYGg"
+                    alt="" width="100%" class="labCodeFoto">
+                <p>Na tarde de 19 de junho de 2024, terça-feira, iniciei de forma presencial no campus Tobias Barreto o
+                    minicurso de "Introdução à Programação em JavaScript", ligado ao projeto de extensão LabCode -
+                    Laboratório para letramento e aperfeiçoamento em programação. Participei como instrutor ao lado do aluno
+                    <a href="https://www.linkedin.com/in/yago--silva/">Yago Silva</a> , e nosso minicurso alcançou um total
+                    de 19 participantes em seu primeiro dia.🥳</p>
+            </section>
+
+            
+        </div>
     </main>
     <footer>
         <div class="footer-container">
@@ -148,6 +179,7 @@
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>

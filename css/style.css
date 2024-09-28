@@ -1,5 +1,112 @@
 @media (min-width: 600px) {
     .foto{
         display: none;
+        margin: 10px;
     }
+
+
+    
+header{
+    height: 85vh;
+    border: 1px solid black;
+    background-color: #2222FF;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.562);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
 }
+
+.ondasHeader{
+    display: block;
+}
+
+.content{
+    text-align: center;
+}
+
+.content > .content-title{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: #00E5FC;
+    font-size: 2.5em;
+    z-index: 1;
+}
+
+.content > p{
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    font-family: monospace;
+    z-index: 1;
+}
+
+.element-button{
+    margin: 30px auto;
+}
+
+
+main{
+    margin-top: 20px;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+
+.contentMain{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    max-width: 80%;
+    margin: 200px auto;
+}
+
+.content-section{
+    align-content: center;
+    align-self: stretch;
+    flex: auto;
+    text-align: center;
+}
+
+
+.content-section > .labCodeFoto{
+    width: 400px;
+}
+
+.content-section > h2{
+    color: #2222FF;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+    font-family: popins;
+    margin-bottom: 30px;
+}
+.content-section > h3{
+    color: #2222FF;
+    font-size: 2em;
+    text-align: center;
+    font-family: popins;
+}
+
+.content-section > p{
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 20px;
+    font-family: popins;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+}
+
