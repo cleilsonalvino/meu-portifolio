@@ -53,8 +53,6 @@ header{
 
 .foto{
     display: block;
-
-    width: 80%;
     max-width: 300px;
     height: auto;
     margin-right: auto;
