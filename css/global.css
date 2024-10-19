@@ -3,3 +3,7 @@
     max-width: 100%;
     margin: auto;
 }
+
+.content > .content-title{
+    margin-top: 50px;
+}
