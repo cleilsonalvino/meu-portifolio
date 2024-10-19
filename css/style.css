@@ -61,6 +61,19 @@ section{
     margin: 20px;
 }
 
+.me {
+    width: 100%;
+}
+
+.projects-title{
+    text-align: center;
+    width: 100%;
+    color: #000079;
+    font-size: 3em;
+    text-align: center;
+    font-family: popins;
+}
+
 
 .contentMain{
     display: flex;

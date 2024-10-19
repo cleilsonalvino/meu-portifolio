@@ -51,6 +51,15 @@ header{
     margin: 30px auto;
 }
 
+.projects-title{
+    text-align: center;
+    width: 100%;
+    color: #000079;
+    font-size: 3em;
+    text-align: center;
+    font-family: popins;
+}
+
 .foto{
     display: block;
     max-width: 300px;
