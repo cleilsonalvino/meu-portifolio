@@ -61,10 +61,15 @@ header{
 .projects-title{
     text-align: center;
     width: 100%;
-    color: #000079;
+    color: #ffffff;
     font-size: 3em;
     text-align: center;
-    font-family: popins;
+    font-family: popins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    width: 400px;
 }
 
 .foto-conteiner {
@@ -201,3 +206,4 @@ footer {
 .footer-bottom p a:hover {
     text-decoration: underline;
 }
+

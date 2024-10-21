@@ -90,10 +90,11 @@ section{
 .projects-title{
     text-align: center;
     width: 100%;
-    color: #000079;
+    color: #ffffff;
     font-size: 3em;
     text-align: center;
     font-family: popins;
+    font-weight: bolder;
 }
 
 
@@ -141,7 +142,11 @@ section{
     margin: 0 auto;
 }
 
-
+.footer-bottom {
+    flex-basis: 100%;
+    border-top: none;
+    padding-top: 30px;
+}
 
 }
 
