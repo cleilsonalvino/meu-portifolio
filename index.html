@@ -27,7 +27,7 @@
               <animate 
                 attributeName="d" 
                 dur="6s"
-                begin="0s; path.end+0s" <!-- Início da animação de retorno -->
+                begin="0s; path.end+0s"
                 values="
                   M0,128L48,144C96,160,192,192,288,176C384,160,480,96,576,64C672,32,768,32,864,64C960,96,1056,160,1152,160C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
                   M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,96C672,64,768,64,864,96C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
@@ -119,21 +119,40 @@
             </div>
         </div>
         <div class="contentMain">
-            <section class="content-section fade-up me">
-                <h2>Sobre mim</h2>
-                <p>Sou um estudante de progamação com uma paixão em resolver soluções que ajudem na vida das pessoas.</p>
-                <p>Tenho especial interesse em desenvolvimento web, especialmente na construção de interfaces intuitivas e
-                    responsivas utilizando HTML, CSS e JavaScript.</p>
-                <h2>Objetivo</h2>
-                <p>Meu objetivo é me tornar um desenvolvedor full-stack, combinando minhas habilidades de front-end com um
-                    conhecimento sólido de back-end para criar soluções completas e eficientes.</p>
+            <section class="content-section init fade-up me">
+                <div class="content-section">
+                    <h2>Sobre mim</h2>
+                    <p>Sou um estudante de progamação com uma paixão em resolver soluções que ajudem na vida das pessoas.</p>
+                    <p>Tenho especial interesse em desenvolvimento web, especialmente na construção de interfaces intuitivas e
+                        responsivas utilizando HTML, CSS e JavaScript.</p>
+                    <h2>Objetivo</h2>
+                    <p>Meu objetivo é me tornar um desenvolvedor full-stack, combinando minhas habilidades de front-end com um
+                        conhecimento sólido de back-end para criar soluções completas e eficientes.</p>
+                </div>
+                <section class="content-section fade-left">
+                    <h2>Soft Skills</h2>
+                    <p>Essas são algumas das habilidades que definem meu trabalho e como eu me relaciono com os projetos e pessoas ao meu redor:</p>
+                    <ul>
+                        <li><strong>Resolução de Problemas:</strong> Gosto de entender conceitos e resolver desafios técnicos.</li>
+                        <li><strong>Autodidatismo:</strong> Sempre busco aprender novas tecnologias e conceitos de programação.</li>
+                        <li><strong>Organização:</strong> Estruturo bem meus projetos e priorizo tarefas de forma eficiente.</li>
+                        <li><strong>Adaptabilidade:</strong> Aprendo rapidamente novas ferramentas e me adapto às mudanças do mercado.</li>
+                        <li><strong>Trabalho em Equipe:</strong> Gosto de colaborar com colegas e sempre busco um bom alinhamento nas equipes.</li>
+                        <li><strong>Criatividade:</strong> Crio soluções inovadoras, como jogos e sistemas, com uma abordagem única.</li>
+                        <li><strong>Pensamento Analítico:</strong> Gosto de quebrar problemas em partes menores para encontrar as melhores soluções.</li>
+                        <li><strong>Comprometimento:</strong> Me dedico aos meus projetos e sempre busco atingir os objetivos propostos.</li>
+                    </ul>
+                </section>
+                
             </section>
+
             <div class="container">
                 <h2 class="projects-title">Projetos</h2>
             </div>
+        
             <section class="content-section fade-left">
                 
-                <h3>instrutor</h3>
+                <h3>Instrutor</h3>
                 <img src="img/labcode.jpeg" alt="foto dos instrutores da labcode" class="labCodeFoto">
                 <p>Na tarde de 19 de junho de 2024, terça-feira, iniciei de forma presencial no campus Tobias Barreto o
                     minicurso de "Introdução à Programação em JavaScript", ligado ao projeto de extensão LabCode -
@@ -150,6 +169,16 @@
                 <p>O jogo foi desenvolvido exclusivamente usando HTML e CSS, demonstrando minha habilidade em criar interfaces imersivas e interativas com tecnologias web.</p>
                 
             </section>
+
+            <section class="content-section fade-left">
+                <h3>Controle de Estoque</h3>
+                <p>Este sistema de controle de estoque foi desenvolvido para a empresa <strong>Dr. Fardamentos</strong>, visando otimizar a gestão de produtos de forma rápida e eficiente. Utilizando o poder do <strong>SheetDB</strong> em conjunto com o <strong>Google Planilhas</strong>, criei uma solução dinâmica, acessível e de fácil integração. Agora, a empresa pode gerenciar seu estoque em tempo real, sem a complexidade de sistemas tradicionais.</p>
+                <img src="img/controle-estoque1.png" alt="print da tela inicial do controle de estoque" class="labCodeFoto">
+                <img src="img/controle-estoque2.png" alt="print da tela de gerenciamento de produtos" class="labCodeFoto">
+                <p>Com esse sistema, a <strong>Dr. Fardamentos</strong> agora tem total controle sobre as entradas, saídas e ajustes de produtos, tudo de forma simples e prática. A integração com o Google Planilhas permite que qualquer alteração no estoque seja refletida automaticamente, garantindo agilidade e segurança nas informações.</p>
+                <p>Conheça mais sobre a <strong>Dr. Fardamentos</strong> através do seu <a href="https://www.instagram.com/drfardamentostobias/" target="_blank">Instagram</a>.</p>
+            </section>
+            
 
             
         </div>

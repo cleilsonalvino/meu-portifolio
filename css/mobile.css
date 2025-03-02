@@ -117,6 +117,34 @@ section{
     font-family: popins;
 }
 
+.init{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content-section ul {
+    margin: auto;
+    width: 90%;
+    list-style: none;
+    padding: 0;
+}
+
+.content-section ul li {
+    background-color: #f4f4f4;
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.content-section ul li:hover {
+    background-color: #e0e0e0;
+    border-left-color: #0056b3;
+}
+
 
 footer {
     background-color: #002952;

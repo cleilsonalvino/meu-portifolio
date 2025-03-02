@@ -137,6 +137,7 @@ button {
   width: 80%;
   margin: auto;
   position: relative;
+  display: block;
   border-radius: 30px 0px;
   --s: 100px; /* control the size */
   --c1: #2222FF;
