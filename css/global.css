@@ -20,3 +20,20 @@
     max-width: 90vw; /* Limita a largura máxima do modal */
   }
 
+
+  .modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o modal ocupe a altura total da tela */
+  }
+  .modal-content {
+    background: none; /* Remove fundo padrão, se desejado */
+    border: none; /* Remove bordas padrão, se desejado */
+    max-width: 90vw; /* Limita a largura máxima do modal */
+    max-height: 90vh; /* Limita a altura máxima do modal */
+  }
+  #fullscreenImage {
+    object-fit: contain; /* Garante que a imagem se ajuste sem distorção */
+    max-height: 90vh; /* Limita a altura da imagem */
+  }
