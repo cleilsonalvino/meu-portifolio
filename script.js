@@ -27,3 +27,16 @@ ScrollReveal().reveal('.fade-left', {
   reset:true
 });
 })
+
+document.addEventListener('DOMContentLoaded', function () {
+  const images = document.querySelectorAll('.clickable-img');
+  const modal = new bootstrap.Modal(document.getElementById('imageModal'));
+  const fullscreenImage = document.getElementById('fullscreenImage');
+
+  images.forEach(image => {
+    image.addEventListener('click', function () {
+      fullscreenImage.src = this.src; // Define a fonte da imagem no modal
+      modal.show(); // Abre o modal
+    });
+  });
+});

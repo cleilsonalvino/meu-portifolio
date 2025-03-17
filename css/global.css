@@ -9,3 +9,14 @@
 }
 
 
+.clickable-img {
+    cursor: pointer;
+  }
+  .modal-content {
+    background: none;
+    border: none;
+  }
+  .modal-dialog {
+    max-width: 90vw; /* Limita a largura máxima do modal */
+  }
+
