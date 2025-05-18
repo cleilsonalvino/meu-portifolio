@@ -223,3 +223,22 @@ button {
   #btnTopo:hover {
     transform: scale(1.1);
   }
+
+  .carousel-image-cover {
+    object-fit: cover;
+    height: auto; /* Garante que a altura seja automática para manter a proporção */
+    max-height: 600px; /* Defina uma altura máxima se desejar */
+    width: 100%; /* Garante que a largura acompanhe o contêiner */
+}
+
+.carousel-image {
+    height: auto;
+    width: 100%;
+    max-height: 600px; /* Defina uma altura máxima padrão, se necessário */
+}
+
+@media (min-width: 768px) { /* Breakpoint md (tela média) e acima */
+    .carousel-image-md-cover {
+        object-fit: cover;
+    }
+}
