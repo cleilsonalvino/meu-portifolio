@@ -40,3 +40,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+  const btnTopo = document.getElementById("btnTopo");
+
+  window.onscroll = () => {
+    if (document.documentElement.scrollTop > 300) {
+      btnTopo.style.display = "block";
+    } else {
+      btnTopo.style.display = "none";
+      
+    }
+  };
+
+  btnTopo.onclick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };

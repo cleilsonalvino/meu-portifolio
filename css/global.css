@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Poppins'; 
+  src: url('../fonts/POPPINS-EXTRABOLDITALIC.TTF') format('truetype');
+}
+
+
 .labCodeFoto{
     display: block;
     max-width: 100%;
@@ -6,6 +12,8 @@
 
 .content > .content-title{
     margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 
